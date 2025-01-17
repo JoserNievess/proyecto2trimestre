@@ -1,7 +1,7 @@
 <header class="flex items-center justify-between py-3 px-6 border-b border-gray-100">
     <div id="header-left" class="flex items-center">
         <div class="text-gray-800 font-semibold">
-            <span class="text-yellow-500 text-xl">&lt;YELO&gt;</span> Code
+            <span class="text-yellow-500 text-xl">South</span> Wine Academy
         </div>
         <div class="top-menu ml-10">
             <ul class="flex space-x-4">
@@ -15,21 +15,21 @@
                 <li>
                     <a class="flex space-x-2 items-center hover:text-yellow-500 text-sm text-gray-500"
                         href="http://127.0.0.1:8000/blog">
-                        Blog
+                        Cursos disponibles
                     </a>
                 </li>
 
                 <li>
                     <a class="flex space-x-2 items-center hover:text-yellow-500 text-sm text-gray-500"
                         href="http://127.0.0.1:8000/blog">
-                        About Us
+                        Sobre nosotros
                     </a>
                 </li>
 
                 <li>
                     <a class="flex space-x-2 items-center hover:text-yellow-500 text-sm text-gray-500"
                         href="http://127.0.0.1:8000/blog">
-                        Contact Us
+                        Contactanos
                     </a>
                 </li>
 
