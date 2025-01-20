@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('../images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Header */
+header {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #000;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-image: url('/images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+footer nav a:hover {
+    color: #000;
+}

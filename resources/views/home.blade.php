@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ mix('/css/style.css') }}">
+
 <x-app-layout>
     @section('hero')
         <div class="w-full text-center py-32">
