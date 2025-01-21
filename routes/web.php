@@ -25,3 +25,4 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+Route::get('/cursos', 'CursoController@index')->name('cursos');
