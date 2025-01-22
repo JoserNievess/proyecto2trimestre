@@ -11,6 +11,7 @@ use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Section;
+use Filament\Forms\Components\Hidden;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
@@ -57,6 +58,8 @@ class PostResource extends Resource
                         FileUpload::make('image')->image()->directory('posts/thumbnails'),
                         DateTimePicker::make('published_at')->nullable(),
                         Checkbox::make('featured'),
+                        Hidden::make('user_id')
+                        ->default(\Illuminate\Support\Facades\Auth::user()->id),
                         Select::make('author')
                             ->relationship('author', 'name')
                             ->searchable()
