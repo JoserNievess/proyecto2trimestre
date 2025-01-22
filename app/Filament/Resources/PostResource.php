@@ -60,7 +60,8 @@ class PostResource extends Resource
                         Checkbox::make('featured'),
                         Hidden::make('user_id')
                         ->default(\Illuminate\Support\Facades\Auth::user()->id),
-                        Select::make('author')
+                        Select::make('user_id') // Cambiar 'author' por 'user_id'
+                            ->label('Author') // Etiqueta amigable para el campo
                             ->relationship('author', 'name')
                             ->searchable()
                             ->required(),
