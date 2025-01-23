@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Storage;
 
 class Post extends Model
 {
@@ -58,4 +59,11 @@ class Post extends Model
 
         return ($mins < 1) ? 1 : $mins;
     }
+
+    public function getThubnailImage()
+    {
+        $isUrl = str_contains($this->image, 'http');
+        return ($isUrl) ? $this->image : Storage::disk('public')->url($this->image);
+    }
+
 }
