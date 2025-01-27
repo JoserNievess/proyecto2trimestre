@@ -18,9 +18,9 @@
         </div>
         <div class="flex items-center space-x-4 font-light ">
             <button class="{{ $sort === 'desc' ? 'text-gray-900 border-b border-gray-700' : 'text-gray-500' }} py-4"
-                wire:click="setSort('desc')">Latest</button>
+                wire:click="setSort('desc')">Últimas publicaciones</button>
             <button class="{{ $sort === 'asc' ? 'text-gray-900 border-b border-gray-700' : 'text-gray-500' }} py-4 "
-                wire:click="setSort('asc')">Oldest</button>
+                wire:click="setSort('asc')">Publicaciones antiguas</button>
         </div>
     </div>
     <div class="py-4">
