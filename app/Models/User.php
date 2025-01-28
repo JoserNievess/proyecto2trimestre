@@ -44,6 +44,11 @@ class User extends Authenticatable implements FilamentUser
         return $this->role === self::ROLE_EDITOR;
     }
 
+    public function hasRole($role)
+    {
+        return $this->role === $role;
+    }
+
     /**
      * The attributes that are mass assignable.
      *

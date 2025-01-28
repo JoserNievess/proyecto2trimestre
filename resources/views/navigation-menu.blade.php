@@ -14,6 +14,9 @@
                 <x-nav-link href="{{ route('aboutus') }}" :active="request()->routeIs('aboutus')">
                     {{ __('Sobre Nosotros') }}
                 </x-nav-link>
+                <x-nav-link href="{{ route('calendar') }}" :active="request()->routeIs('calendar')">
+                    {{ __('Calendario de Cursos') }}
+                </x-nav-link>
             </div>
         </div>
     </div>

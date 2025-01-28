@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutusController;
+use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
@@ -24,6 +25,10 @@ Route::get('/blog/{post:slug}', [PostController::class, 'show'])->name('posts.sh
 
 Route::get('/aboutus', [AboutusController::class, 'index'])->name('aboutus');
 
+Route::get('/calendar', [CalendarController::class, 'index'])->name('calendar');
+Route::get('/calendar/events', [CalendarController::class, 'getEvents'])->name('calendar.events');
+Route::post('/calendar/store', [CalendarController::class, 'store'])->name('calendar.store');
+Route::delete('/calendar/{id}', [CalendarController::class, 'destroy'])->name('calendar.destroy');
 
 Route::middleware([
     'auth:sanctum',
