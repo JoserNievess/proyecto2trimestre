@@ -108,14 +108,14 @@
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 var calendarEl = document.getElementById('calendar');
-                var userRole = "{{ Auth::user()->role }}"; // Obtener el rol del usuario autenticado
+                var userRole = "{{ Auth::check() ? Auth::user()->role : 'GUEST' }}"; // Obtener el rol del usuario autenticado o 'GUEST' si no está autenticado
                 
                 if (calendarEl) {
                     var calendar = new FullCalendar.Calendar(calendarEl, {
                         initialView: 'dayGridMonth',
                         locale: 'es', // Establecer el idioma a español
-                        editable: true,
-                        selectable: true,
+                        editable: userRole !== 'GUEST', // Solo permitir edición si el usuario no es 'GUEST'
+                        selectable: userRole !== 'GUEST',
                         events: "{{ route('calendar.events') }}",
                         dateClick: function(info) {
                             if (userRole === 'ADMIN' || userRole === 'EDITOR') {
