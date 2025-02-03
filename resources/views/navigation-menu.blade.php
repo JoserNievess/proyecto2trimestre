@@ -3,7 +3,9 @@
         <a href="{{ route('home') }}">
             <x-application-mark />
         </a>
-        <div class="top-menu ml-10">
+    </div>
+    <div class="flex-1 flex justify-center">
+        <div class="top-menu">
             <div class="flex space-x-4">
                 <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                     {{ __('Inicio') }}

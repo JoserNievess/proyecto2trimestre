@@ -8,7 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/interaction@5.10.1/main.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/locales/es.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/locales/es.js"></script>
     </head>
     <body class="bg-gray-100 text-gray-900">
         <div class="container mx-auto p-6">
