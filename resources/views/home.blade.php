@@ -8,7 +8,7 @@
         </h1>
         <p style="color: #ffffff; margin-top: 10px;">Expertos en vinos</p>
  
-        <a href="#" class="px-3 py-2 text-lg text-white bg-orange-400 rounded mt-10 inline-block hover:bg-orange-600">
+        <a href="http://proyecto2trimestre.local/blog" class="px-3 py-2 text-lg text-white bg-orange-400 rounded mt-10 inline-block hover:bg-orange-600">
             Explorar Cursos
         </a>
     </div>
@@ -39,7 +39,7 @@
                 @endforeach
             </div>
         </div>
-        <a class="mt-10 block text-center text-lg text-yellow-500 font-semibold" href="http://127.0.0.1:8000/blog">Más
+        <a class="mt-10 block text-center text-lg text-yellow-500 font-semibold" href="http://proyecto2trimestre.local/blog">Más
             Cursos</a>
     </div>
  
