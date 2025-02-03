@@ -20,7 +20,7 @@
                     </p>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
-                    <img src="/vino1.png" alt="Copa de vino" class="w-full max-w-md rounded-xl shadow-lg">
+                    <img src="{{ asset('/images/vino1.png') }}" alt="Copa de vino" class="w-full max-w-md rounded-xl shadow-lg">
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                     </p>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
-                    <img src="/vino2.png" alt="Botella de vino" class="w-full max-w-md rounded-xl shadow-lg">
+                    <img src="/images/vino2.png" alt="Botella de vino" class="w-full max-w-md rounded-xl shadow-lg">
                 </div>
             </div>
         </div>
