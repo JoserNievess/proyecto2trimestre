@@ -6,21 +6,35 @@
         </div>
 
         <!-- Secciones de contenido -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div class="bg-gradient-to-br from-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                <p class="text-gray-800 text-lg leading-relaxed">
-                    En el mundo del vino, cada botella cuenta una historia y cada sorbo es una experiencia única. Creemos firmemente que el conocimiento es la clave para disfrutar plenamente de esta fascinante cultura.
-                </p>
-                <p class="mt-4 text-gray-800 text-lg leading-relaxed">
-                    Te invitamos a explorar nuestro sitio, donde encontrarás información detallada sobre nuestros cursos, así como recursos adicionales que enriquecerán tu aprendizaje y pasión por el vino.
-                </p>
+        <div class="space-y-12">
+            <!-- Primera Sección -->
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2 bg-gradient-to-br from-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h2 class="text-3xl font-bold text-yellow-500 mb-4">Mas Que Vino</h2>
+
+                    <p class="text-gray-800 text-lg leading-relaxed">
+                        En el mundo del vino, cada botella cuenta una historia y cada sorbo es una experiencia única. Creemos firmemente que el conocimiento es la clave para disfrutar plenamente de esta fascinante cultura.
+                    </p>
+                    <p class="mt-4 text-gray-800 text-lg leading-relaxed">
+                        Te invitamos a explorar nuestro sitio, donde encontrarás información detallada sobre nuestros cursos, así como recursos adicionales que enriquecerán tu aprendizaje y pasión por el vino.
+                    </p>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="/vino1.png" alt="Copa de vino" class="w-full max-w-md rounded-xl shadow-lg">
+                </div>
             </div>
 
-            <div class="bg-gradient-to-br from-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                <h2 class="text-3xl font-bold text-yellow-500 mb-4">Nuestra filosofía</h2>
-                <p class="text-gray-800 text-lg leading-relaxed">
-                    En South Wines Academy, estamos profundamente comprometidos con la divulgación del fascinante mundo del vino y la educación en este ámbito. Creemos firmemente que, a través de la enseñanza, podemos cultivar una apreciación más profunda y enriquecedora por los vinos, brindando a nuestros estudiantes las herramientas necesarias para explorar y disfrutar de esta experiencia de manera excepcional.
-                </p>
+            <!-- Segunda Sección -->
+            <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+                <div class="md:w-1/2 bg-gradient-to-br from-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h2 class="text-3xl font-bold text-yellow-500 mb-4">Nuestra filosofía</h2>
+                    <p class="text-gray-800 text-lg leading-relaxed">
+                        En South Wines Academy, estamos profundamente comprometidos con la divulgación del fascinante mundo del vino y la educación en este ámbito. Creemos firmemente que, a través de la enseñanza, podemos cultivar una apreciación más profunda y enriquecedora por los vinos, brindando a nuestros estudiantes las herramientas necesarias para explorar y disfrutar de esta experiencia de manera excepcional.
+                    </p>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="/vino2.png" alt="Botella de vino" class="w-full max-w-md rounded-xl shadow-lg">
+                </div>
             </div>
         </div>
 
