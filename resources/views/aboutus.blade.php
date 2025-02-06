@@ -8,7 +8,7 @@
   <!-- Slider de imágenes -->
 <div class="relative w-full h-96 mt-12 overflow-hidden rounded-xl shadow-lg">
     <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 z-10">
-        <h2 class="text-6xl font-extrabold text-yellow-500 drop-shadow-md ">Sumérgete en la Cultura del Vino</h2>
+        <h2 class="text-6xl font-extrabold text-white drop-shadow-md ">Sumérgete en la Cultura del Vino</h2>
         <p class="text-lg text-white mt-4 max-w-2xl">
             Descubre los sabores, aromas y secretos detrás de cada copa con nosotros.
         </p>
