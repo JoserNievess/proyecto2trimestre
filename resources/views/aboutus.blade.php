@@ -79,21 +79,7 @@
 
 <!-- Tercera Sección -->
 <div class="flex flex-col h-96 md:flex-row items-center gap-8">
-    <div class="md:w-1/2 bg-gradient-to-br from-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-        <h2 class="text-3xl font-bold text-yellow-500 mb-4">Redes Sociales</h2>
-        <p class="text-gray-800 text-lg leading-relaxed">
-            Aquí podrás encontrar nuestras redes para más información o contacto con nosotros.
-        </p>
-        <!-- Botones de redes sociales -->
-        <div class="mt-4 flex space-x-4">
-            <a href="https://instagram.com/tu_perfil" target="_blank" class="px-4 py-2 bg-yellow-500 text-white text-lg font-semibold rounded-xl shadow-lg hover:bg-yellow-600 transition duration-300 transform hover:scale-105">
-                Instagram
-            </a>
-            <a href="https://twitter.com/tu_perfil" target="_blank" class="px-4 py-2 bg-yellow-500 text-white text-lg font-semibold rounded-xl shadow-lg hover:bg-yellow-600 transition duration-300 transform hover:scale-105">
-                Twitter
-            </a>
-        </div>
-    </div>
+    
     <div class="md:w-1/2 flex justify-center">
         <img src="{{ asset('/images/vino3.png') }}" alt="Botella de vino" class="w-full max-w-md rounded-xl shadow-lg">
     </div>
@@ -109,19 +95,5 @@
         </p>
     </div>
 </div>
-
-
-
-
-
-    <!-- Botones de acción -->
-    <div class="mt-16 mb-8 flex justify-center space-x-4">
-        <a href="/" class="px-6 py-3 bg-yellow-500 text-white text-md font-semibold rounded-xl shadow-lg hover:bg-yellow-600 transition duration-300 transform hover:scale-105">
-            Inicio 
-        </a>
-        <a href="/blog" class="px-6 py-3 bg-yellow-500 text-white text-md font-semibold rounded-xl shadow-lg hover:bg-yellow-600 transition duration-300 transform hover:scale-105">
-        Saber más
-        </a>
-    </div>
 </div>
 </x-app-layout>
