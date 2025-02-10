@@ -60,8 +60,8 @@
 <div class="relative w-full h-96 mt-32 mb-24 overflow-hidden shadow-lg">
     <img src="{{ asset('/images/vino4.png') }}" alt="Copa de vino" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out">
     <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-        <h2 class="text-4xl font-bold" style="color: #4e0202; drop-shadow-md">Explora el Mundo del Vino</h2>
-        <p class="text-lg text-yellow-500 mt-4 max-w-2xl">
+        <h2 class="text-4xl font-bold" style="color:white; drop-shadow-md">Explora el Mundo del Vino</h2>
+        <p class="text-lg text-white mt-4 max-w-2xl">
             En South Wines Academy te ofrecemos conocimientos y experiencias únicas para adentrarte en la cultura del vino.
         </p>
     </div>
