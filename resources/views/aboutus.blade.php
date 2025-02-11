@@ -4,7 +4,11 @@
         <div class="text-center mb-12">
             <h1 class="text-6xl font-extrabold text-yellow-500 drop-shadow-md "></h1>
         </div>
-        
+        <style>
+            body {
+                background-color: #e8e9e2; /* Fondo color vino claro */
+            }
+        </style>
   <!-- Slider de imágenes -->
 <div class="relative w-full h-96 mt-12 overflow-hidden rounded-xl shadow-lg">
     <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 z-10">
@@ -32,7 +36,7 @@
 
 
 
-<div class="flex flex-col md:flex-row items-center gap-16 mt-24"> <!-- Añadido mt-24 -->
+<div class="flex flex-col md:flex-row items-center gap-16 mt-24"> <!-- Añadido mt-24 a -->
     <div class="md:w-1/2 bg-white bg-opacity-30 p-8 rounded-lg shadow-lg">
             <h2 class="text-6xl font-extrabold" style="color: #4e0202; mb-8">MÁS QUE VINO</h2> <!-- Cambiado a color #4e0202 y mb-8 -->
             <p class="text-black text-2xl leading-relaxed"> <!-- Cambiado a text-2xl -->
