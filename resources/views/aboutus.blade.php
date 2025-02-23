@@ -6,7 +6,7 @@
         </div>
         <style>
             body {
-                background-color: #e8e9e2; /* Fondo color vino claro */
+                background-color: #e8e9e2;
             }
         </style>
   <!-- Slider de imágenes -->
