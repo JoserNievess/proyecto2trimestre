@@ -17,6 +17,11 @@
 
     <!-- Styles -->
     @livewireStyles
+    <style>
+        body {
+            background-color: #e8e9e2;
+        }
+    </style>
 </head>
 
 <body class="font-sans antialiased">
